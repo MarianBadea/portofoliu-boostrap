@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boostrap portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="media/boy.png" alt="me" class="navbar-img rounded-circle ">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#section-1">Pasiuni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#section-2">Realizari</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#section-3">Recomandari</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#section-4">Despre Mine</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#section-5">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="media/carti.jpg" class="d-block w-100 carimg" alt="banner-one">
+            <div class="carousel-image-overlay"></div>
+            <div class="carousel-caption">
+                <h5>Noutate</h5>
+                <p>Intotdeauna m-am caracterizat o persoana dinamica si dornica de a experimenta <br/>
+                  lucruri noi.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="media/freedom.jpg" class="d-block w-100 carimg" alt="banner-two">
+            <div class="carousel-image-overlay"></div>
+            <div class="carousel-caption">
+                <h5>Dorinta</h5>
+                <p>Fiind deschis la noutate si avand o atractie sportita fata de tehnologie,
+                  am hotart sa imi perfectionez cunostintele in domeniul IT.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="media/Parc.JPG" class="d-block w-100 carimg" alt="banner-three">
+            <div class="carousel-image-overlay"></div>
+            <div class="carousel-caption">
+                <h5>Evolutie</h5>
+                <p>Dintotdeauna am fost fascinat de evolutia rapida a tehnologiei in viata noastra de zi cu zi si mi-am dorit
+                  sa stiu ce se petrece in spatele ecranelor.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="section-1"class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">PASIUNILE MELE</h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-5 mt-4" >
+              <h3>Tehnologia</h3>
+              <p class="text-justify">Imi place tehnologia si noutatea, de mic mi-am dorit sa fiu la curent cu tot 
+                 ceea ce apare nou. Ma atrage simplitatea in tehnologie si lucrurile care sunt
+                 bine facute. De aici probabil si atractia fata de tehnologie, design, fototgrafie, marketing.
+              </p>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 mt-4">
+            <h3>Sport</h3>
+                <p class="text-justify">Imi place miscarea si consider ca este esenta vietii, prin sport ma regasesc 
+                  pe mine, imi ofera energie, ma face sa ma simt bine in corpul meu, imi limpezeste 
+                  mintea si gandurie. Printre sporturile principale pe care le practic se numara ciclismul,
+                  alergatul, drumetiile in natura, sala.
+                </p>
+          </div>
+          <div class="col-lg-3 col-md-5 mt-4">
+            <h3>Calatorit</h3>
+            <p>Imi place sa calatoresc, sa experimentez locuri noi si culturi noi. Imi doresc 
+              sa ies din aria Europei si sa ma intrept spre locuri diferite cum ar fi: Thailanda 
+              , Egipt, Moscova, etc. 
+            </p>
+          </div>
+          <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 mt-4">
+            <h3>TEHNOLOGIA</h3>
+            <p>Imi place tehnologia si noutatea, de mic mi-am dorit sa fiu la curent cu tot 
+               ceea ce apare nou. Ma atrage simplitatea in tehnologie si lucrurile care sunt
+               bine facute. De aici probabil si atractia fata de tehnologie, design, fototgrafie, marketing.
+            </p>
+          </div>
+          </div>
+        </div>
+   
+      </section>
+      <section id="section-2" class="bg-dark text-light py-5" > 
+        <h2 class="text-center mb-5">REALIZARI</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-5 mt-4" >
+              <h3>Clubul Studenților Economiști</h3>
+              <p>CSE(Asociația Studențească "Clubul Studenților Economiști"), Sibiu.
+                În cadrul acestei asociații, am avut ocazia sa coordonez o echipă formată din 10 membri și împreună
+                am realizat activități precum: susținerea de întâlniri cu personalități diverse din mediul de afaceri,
+                sprijinirea studenților în diversele probleme universitare, inițializarea și organizarea de acțiuni stiințifice,
+                culturale, sportive, caritabile și alte activitați.
+              </p>
+            </div>
+            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 mt-4" >
+              <h3>BICYCLE COFFEE</h3>
+              <p>Este un proiect inceput de mine in 2017, iar tipul de activitate in care am fost
+                prezenti este cel de cafenea tip "to go". Ma-am ocupat de administratea firmei si de 
+                buna desfasurare a activitatii. Printre activitatile intreprinse de mine se numara: <br/>
+                <ul>
+                     <li>coordonarea bunului mers al activitaii</li>
+                     <li>asigurarea de stocuri necesare si comenzi catre furnizori</li>
+                     <li>redactare/incasare facturi</li>
+                     <li>inregistrare in contabilitate a documentelor (contabilitate primara)</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-5 mt-4" >
+              <h3>ERASMUS</h3>
+              <p>University of Primorska, Portoroz (Slovenia)-
+                Timp de 5 luni de zile am avut ocazia să studiez în Portoroz, Slovenia la una dintre cele mai renumite
+                universităti în cadrul Facultății de Turism. In tot acest timp m-am familiarizat cu un nou stil de viață, o
+                noua cultură, un sistem de invațămant nou precum si multe altele. Consider că pentru oricine este un
+                avantaj o astfel de experiență deoarece este un prilej extraordinar de a te dezvolta și de a-ți
+                îmbunătății cunoștințele.
+              </p>
+            </div>
+            <div class="col-lg-3 offset-lg-0 col-md-5 offset-md-2 mt-4" >
+              <h3 >Portofoliu<span class="badge bg-primary">Boostrap</span></h3>
+              <p>Am reconstruit Portofoliul meu ce initial l-am consturit cu HTML+CSS, utilizand librairia Boostrap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-3" class="bg-light py-5">
+        <h2 class="text-center mb-5">RECOMANDARI</h2>
+        <div class="container">
+          <div class="row">
+            <div class="card col-lg-5 mt-5 ">
+              <img src="media/Florin.jpg" class="card-img-top" alt="Florin Badea">
+              <div class="card-body">
+                <h5 class="card-title">Florn Badea</h5>
+                <p class="card-text">Consider că pentru oricine este un
+                  avantaj o astfel de experiență deoarece este un prilej extraordinar .</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#persone-one">
+                  Read more
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="persone-one" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Florin Badea</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ersităti în cadrul Facultății de Turism. In tot acest timp m-am familiarizat cu un nou stil de viață, o
+                    noua cultură, un sistem de invațămant nou precum si multe altele. Consider că pentru oricine este un
+                    avantaj o astfel de experiență deoarece este un prilej extraordinar de a te dezvolta și de a-ți
+                    îmbunătății cunoștințele.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-5 offset-lg-2 mt-5 ">
+              <img src="media/Andreea.jpg" class="card-img-top" alt="Florin Badea">
+              <div class="card-body">
+                <h5 class="card-title">Andreea State</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#persone-two">
+                  Read more
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="persone-two" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Andreea State</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ersităti în cadrul Facultății de Turism. In tot acest timp m-am familiarizat cu un nou stil de viață, o
+                    noua cultură, un sistem de invațămant nou precum si multe altele. Consider că pentru oricine este un
+                    avantaj o astfel de experiență deoarece este un prilej extraordinar de a te dezvolta și de a-ți
+                    îmbunătății cunoștințele.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-5 mt-5">
+              <img src="media/Florin.jpg" class="card-img-top" alt="Florin Badea">
+              <div class="card-body">
+                <h5 class="card-title">Florn Badea</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#persone-thre">
+                  Read more
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="persone-thre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Florin Badea</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ersităti în cadrul Facultății de Turism. In tot acest timp m-am familiarizat cu un nou stil de viață, o
+                    noua cultură, un sistem de invațămant nou precum si multe altele. Consider că pentru oricine este un
+                    avantaj o astfel de experiență deoarece este un prilej extraordinar de a te dezvolta și de a-ți
+                    îmbunătății cunoștințele.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-5 offset-lg-2 mt-5">
+              <img src="media/Andreea.jpg" class="card-img-top" alt="Florin Badea">
+              <div class="card-body">
+                <h5 class="card-title">Andreea State</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#persone-four">
+                  Read more
+                </button>
+              </div>
+            </div>
+            <div class="modal fade" id="persone-four" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Florin Badea</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ersităti în cadrul Facultății de Turism. In tot acest timp m-am familiarizat cu un nou stil de viață, o
+                    noua cultură, un sistem de invațămant nou precum si multe altele. Consider că pentru oricine este un
+                    avantaj o astfel de experiență deoarece este un prilej extraordinar de a te dezvolta și de a-ți
+                    îmbunătății cunoștințele.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      
+      <section id="section-4" class="bg-secondary text-white py-5">
+        <h2 class="text-center mb-5">DESPRE MINE</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <img class="img-fluid rounded-circle" src="media/Eu.jpg" alt="EU">             
+            </div>
+            <div class="col-lg-5 offset-lg-1 mt-4">
+              <h5 class="mb-4">Buna, eu sunt Marian!</h5>   
+              <p class="text-justify">Am 26 de ani, sunt din Ramnicu Valcea, am venit in Sibiu in anul 2013 pentru 
+                a studia la Facultatea de Stiinte Economice, am urmat stadiu de licenta si master  
+                la aceasta facultatea si am incercat sa iau tot ce e mai bun din punct de vedere 
+                profesional si sa adun cat mai multe experiente in acesta perioada din viata.
+                <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Apasa aici</button>
+             </p>        
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="section-5" class="bg-dark text-white py-5">
+        <div class="container">
+          <h2>Date contact</h2>
+          <address> 
+              Str. Miraslau,<br>
+              Bl. 30, Sc.10A<br>
+              Sibiu, Romania
+          </address>
+
+          <a href="tel:+40 752 926 657"> Tel: +40 752 926 657</a> </br>
+          <a href="mailto:badea.alexandrumarian@gmail.com">E-mail: badea.alexandrumarian@gmail.com</a>
+
+        </div>
+       
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script>
+           var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+          })
+    </script>
+  </body>
+</html>
